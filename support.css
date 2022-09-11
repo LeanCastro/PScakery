@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.label {
+    padding: 30px 30px;
+    background-color: #222;
+    border-top:2px solid pink;
+    border-bottom: 2px solid pink;
+    height: 40px;
+    width: 100%;
+    font-size: 50px
+}
+body {
+    background-color: black;
+    color: #f2f2f2;
+    font-family: tahoma;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#firstline {
+    margin-top: 300px;
+}
+h1 {
+    font-size: 100px;
+    padding: 20px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: -30%;
+    background-color: #222;
+    color: black;
+    animation: changecolor  5s linear infinite;
+
+}
+@keyframes changecolor {
+    0%{
+        color: #222222;
+    }
+    50% {
+        color: #fff;
+    }
+}
+.one {
+    width: 600px;
+}
+.two {
+    width: 500px;
+}
+.four {
+    width: 600px;
+}
+.tree {
+    width: 500px;
+}
+
+.head {
+    border-radius: 50%;
+    width: 500px;
+    height: 400px;
+    margin: 50px 170px;
+}
+.buttonone {
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid pink;
+    margin: 30px 10px;
+    width: 190px;
+    height: 80px; 
+    font-size: 30px;
+    color: #f2f2f2;
+    background: none;
+    cursor: pointer;
+}
+.buttonone:hover {
+    background-color: pink;
+    color: black;
+    font-weight: 900;
+    transition: .3s;
+}
+.headerimg {
+    margin-top: 500px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 16px;
+}
+.forImg {
+    margin: 0px 15px 0px 385px;
+    padding: 15px;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    line-height: 100rem;
+    cursor: pointer;
+    border: 8px solid pink;
+    margin-bottom: 50px;
+}
+.forImg:hover {
+    margin: 0px 15px 0px 383px;
+    transition: .3s;
+    border-radius: 50%;
+    width: 310px;
+    height: 255px;
+    margin-bottom: 45px;
+    border: 8px solid white;
+}
+h2 {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+.fordebut, .forwedding, .forother {
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    border: 8px solid pink;
+}
+.fordebutclassdiv {
+    margin-top: 15rem;
+    margin-left: 100px;
+    line-height: 6rem;
+}
+.forweddingclassdiv {
+    margin-top: 15rem;
+    margin-left: 100px;
+    line-height: 6rem;
+}
+.forotherclassdiv {
+    margin-bottom: 500px;
+    margin-top: 15rem;
+    margin-left: 100px;
+    line-height: 6rem;
+}
+p {
+    font-size: 27px;
+    line-height: 0px;
+    
+}
+table, th, tr, td {
+    margin: 0 auto;
+    margin-bottom: 120px;
+    font-size: 30px;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid white;
+}
+.th {
+    font-size: 60px;
+}
+h3, h4 {
+    padding-left: 30px;
+}
+h3 {
+    font-family: arial;
+    line-height: 0px;
+    font-size: 50px;
+    animation: changecolor 3s linear infinite;
+}
+@keyframes changecolor {
+    0% {
+        color: #222222;
+    }
+    50% {
+        color: white;
+    }
+}
+h4 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.buttontwo {
+    margin: 0 30%;
+    width: 300px;
+    height: 100px;
+    font-weight: 900;
+    font-size: 50px;
+    border-radius: 100px;
+
+}
+video {
+    padding: 6px;
+    margin: 30px;
+    background: linear-gradient(45deg, pink, white, #222, pink, white, #222
+    , pink, white, #222, pink, white, #222, pink, white, #222);
+
+}
+.video {
+    margin: 12px;
+    padding: 15px;
+    background: linear-gradient(42deg, rgb(47, 47, 47), black);
+    filter: blur(100%);
+}
+.vid2 {
+    height: 570px;
+}
